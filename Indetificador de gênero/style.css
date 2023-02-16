@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive, sans-serif;
+}
+
+
+body {
+   height: 100vh;
+    background-image:linear-gradient(to top, blue,black) ;
+    font: normal 15 Arial;
+}
+header {
+    height: 200px;
+    color: white;
+    text-align: center;
+
+}
+h1{
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.164);
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+}
+
+#btn{
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#button{
+    padding-top: 30px;
+}
+
+#seX{
+    padding: 20px;
+
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indetificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Indetificador de Idade</strong></h1>
+    </header>
+    <section>
+        <div>
+           <p>Ano de nascimento</p>
+           <input type="number" name="txtano" id="txtano" min= "5">
+           <p id="seX">Sexo:
+               <input type="radio" name="sex" id="masc" checked>
+               <label for="masc">Masculino</label>
+               <input type="radio" name="sex" id="fem">
+               <label for="fem">Feminino</label>
+           </p>
+          <p id="button"> <strong><input type="button" value="VERIFICAR" onclick="verificar()" id="btn"></strong> </p>
+        </div>
+        <div id="res">
+            Resultado final
+        </div>
+        </section>
+       
+        <script src="script.js"></script>
+    
+</body>
+</html>
