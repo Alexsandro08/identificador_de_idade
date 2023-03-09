@@ -1,7 +1,15 @@
+@charset "UTF8";
+
+
+
+@media screen and (max-width:767px) {
+    
+
+
 *{
     padding: 0px;
     margin: 0px;
-    font-family: cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -26,7 +34,7 @@ section {
     border-radius: 10px;
     padding: 15px;
     height: 500px;
-    width: 500px;
+    width: 70%;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
 }
@@ -43,4 +51,8 @@ section {
 #seX{
     padding: 20px;
 
+}
+#txtano{
+    background-color:rgba(255, 228, 196, 0.644);
+   }
 }
