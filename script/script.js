@@ -3,7 +3,7 @@ function verificar() {
     let ano = data.getFullYear()
     let fano = document.getElementById("txtano")
     let res = document.getElementById("res")
-    if(fano.value.length == 0 || fano.value > ano) {
+    if(fano.value.length == 00 || fano.value > ano) {
         window.alert('[ERRO] Preencha os dados corretamente')
     } else {
         let fsex = document.getElementsByName('sex')
